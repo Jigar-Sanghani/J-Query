@@ -40,15 +40,20 @@
         <p>Surrounded by Dubai’s most eminent landmarks, Mercedes-Benz Places <br>offers unobstructed views of the
             world’s
             tallest tower, creating an <br>unparalleled living experience.</p>
+        <img src="./image/dots.svg" alt="" id="i1">
+        <img src="./image/dot2.svg" alt="" id="i2">
     </div>
 
-    <div id="section3"></div>
+    <div id="section3">
+    </div>
 
     <div id="section4">
         <h2>Breaking New Grounds for Intelligent and Luxury Living</h2>
         <p>The blend of design artistry with the precision of advanced technology <br>creates a harmonious environment
             where
             unparalleled customer-centered <br>experience harmonizes with continuous innovation.</p>
+        <img src="./image/dots.svg" alt="" id="i1">
+        <img src="./image/dot2.svg" alt="" id="i2">
     </div>
 
     <div id="section5">
@@ -79,6 +84,58 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+
+    <div id="section7">
+        <h2>Floor Plan</h2>
+        <p>Each space is designed to converge human connection, technological <br>advancement and innovative design.
+            Every
+            corner tells a story of interaction <br>to set a new standard for luxurious design and intelligent living.
+        </p>
+        <img src="./image/dots.svg" alt="" id="i1">
+        <img src="./image/dot2.svg" alt="" id="i2">
+    </div>
+
+    <div id="section8">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://dubai.mercedesbenzplaces.com/assets/img/benzplace/plan/The-Mercedes-Benz-Pagoda-Suite-2-Bedroom-Type-1-A.svg"
+                        alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dubai.mercedesbenzplaces.com/assets/img/benzplace/plan/The-Mercedes-Benz-Pagoda-Suite-2-Bedroom-Type-1-B.svg"
+                        alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dubai.mercedesbenzplaces.com/assets/img/benzplace/plan/The-Mercedes-Benz-Pagoda-Suite-2-Bedroom-Type-2-A.svg"
+                        alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dubai.mercedesbenzplaces.com/assets/img/benzplace/plan/The-Grand-Mercedes-Suite-3-Bedroom-Type-1-A.svg"
+                        alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dubai.mercedesbenzplaces.com/assets/img/benzplace/plan/The-Grand-Mercedes-Suite-3-Bedroom-Type-2.svg"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="section9">
+        <h2>Register your interest</h2>
+        <div id="radio">
+            <div id="clent">
+                <input type="radio" name="people" value="CLIENT" id="input" required>
+                <label for="" id="label">CLIENT</label>
+            </div>
+            <div id="broker">
+                <input type="radio" name="people" value="BROKER" id="input" required>
+                <label for="" id="label">BROKER</label>
+            </div>
+        </div>
+    </div>
 </body>
 
 <!-- Link Slider Jq -->
@@ -89,17 +146,21 @@
 
 <script>
     var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
     });
-  </script>
+</script>
 
 </html>
