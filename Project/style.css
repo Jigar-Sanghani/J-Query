@@ -37,6 +37,7 @@
         color: white;
         font-size: 18px;
         font-family: sans-serif;
+        transition: all 0.2s;
     }
 
 }
@@ -299,7 +300,7 @@
 
 #section9 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: black;
 
     h2 {
@@ -330,4 +331,102 @@
 #form{
     display: flex;
           
+}
+
+#footer{
+    margin-top: 10%;
+    margin-bottom: 02%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#reach
+{
+     height: 30%;
+     width: 35%;
+     color: white;
+     text-align: center;
+     font-family: MBCorpoATitleCond-Regular;
+
+     #te{
+        cursor: pointer;
+     }
+
+     #te:hover{
+        
+        color: rgb(180, 178, 178);
+     }
+}
+
+#quick{
+    height: 30%;
+    width: 35%;
+    text-decoration: none !important;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-family: MBCorpoATitleCond-Regular;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: MBCorpoATitleCond-Regular;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    a:hover{
+        
+        color: rgb(180, 178, 178);
+    }
+}
+
+#follow{
+    height: 30%;
+    width: 35%;
+    text-decoration: none !important;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-family: MBCorpoATitleCond-Regular;
+
+    i{
+        margin-top: 07%;
+        margin-left: 05%;
+    }
+
+    h3{
+        margin-top: 07%;
+    }
+
+    #pr{
+        cursor: pointer;
+    }
+
+    #pr:hover{
+        
+        color: rgb(180, 178, 178);
+    }
+
+    #taaa{
+        cursor: pointer;
+    }
+
+    #taaa:hover{
+        
+        color: rgb(180, 178, 178);
+    }
+
+    h4{
+        margin-top: 07%;
+    }
+
+    a{
+        color: white;
+    }
+
+    a:hover{
+        
+        color: rgb(180, 178, 178);
+    }
 }
