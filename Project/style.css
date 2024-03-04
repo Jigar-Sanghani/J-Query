@@ -55,7 +55,7 @@
     height: 100vh;
 
     #box{
-        width: 30%;
+        width: 50%;
         height: 25%;
         z-index:100;
         position:absolute;
@@ -112,8 +112,8 @@
     h2 {
         text-align: center;
         font-size: 40px;
-        margin-bottom: 04%;
-        padding-top: 05%;
+        margin-bottom: 02%;
+        padding-top: 03%;
         line-height: 75px;
         color: #000;
         font-family: MBCorpoATitleCond-Regular;
@@ -161,8 +161,8 @@
     h2 {
         text-align: center;
         font-size: 40px;
-        margin-bottom: 04%;
-        padding-top: 05%;
+        margin-bottom: 02%;
+        padding-top: 03%;
         line-height: 75px;
         color: #000;
         font-family: MBCorpoATitleCond-Regular;
@@ -254,8 +254,8 @@
     h2 {
         text-align: center;
         font-size: 40px;
-        margin-bottom: 04%;
-        padding-top: 05%;
+        margin-bottom: 02%;
+        padding-top: 03%;
         line-height: 75px;
         color: #000;
         font-family: MBCorpoATitleCond-Regular;
@@ -305,8 +305,8 @@
     h2 {
         text-align: center;
         font-size: 40px;
-        margin-bottom: 04%;
-        padding-top: 05%;
+        margin-bottom: 02%;
+        padding-top: 03%;
         line-height: 75px;
         color: white;
         font-family: MBCorpoATitleCond-Regular;
