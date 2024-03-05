@@ -307,7 +307,7 @@
         text-align: center;
         font-size: 40px;
         margin-bottom: 02%;
-        padding-top: 03%;
+        padding-top: 02%;
         line-height: 75px;
         color: white;
         font-family: MBCorpoATitleCond-Regular;
@@ -324,7 +324,7 @@
         justify-content: center;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 5%;
+        margin-top: 03%;
     }
 }
 
@@ -334,8 +334,7 @@
 }
 
 #footer{
-    margin-top: 10%;
-    margin-bottom: 02%;
+    margin-top: 07%;
     display: flex;
     justify-content: space-around;
 }
@@ -345,6 +344,7 @@
      height: 30%;
      width: 35%;
      color: white;
+     font-size: 15px;
      text-align: center;
      font-family: MBCorpoATitleCond-Regular;
 
